@@ -49,5 +49,5 @@ app.delete('/about', (req, res) => {
 });
 
 app.listen(3010, () => {
-	console.log('Example app listengin on port 3010! (' + chalk.blue('http://localhost:3010') + ')');
+	log('Example app listengin on port 3010! (' + chalk.blue('http://localhost:3010') + ')');
 });
