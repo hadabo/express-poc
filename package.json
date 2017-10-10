@@ -1,0 +1,12 @@
+{
+  "name": "express-poc",
+  "version": "1.0.0",
+  "description": "Using nodejs and express js to create an open API (PoC)",
+  "main": "index.js",
+  "repository": "https://github.com/hadabo/express-poc.git",
+  "author": "Abdul Hadi Hawari",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
