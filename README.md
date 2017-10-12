@@ -30,19 +30,12 @@ if you face any issues running this project, please open a new card from the [is
 ## Contributions
 since this is a **PoC project** there are no restrictions on contributing, just make sure you create a feature branch and create a pull request after you're done.
 
+## Security
+If you discover any security related issues, please email [Abdul-hadi](mailto:ah.hawari@gmail.com) instead of using the issue tracker.
 
-
-## Contributors
-
-Thanks goes to these people ([emoji key][emojis]):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars1.githubusercontent.com/u/172296?v=4&s=460?v=3" width="100px;"><br><sub>Abdul-hadi Hawari</sub>](https://hadabo.com)<br>[💻](https://github.com/hadabo/express-poc/commits?author=hadabo "Code") [📖](https://github.com/hadabo/express-poc/commits?author=hadabo "Documentation") [🚇](#infra-hadabo "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/hadabo/express-poc/commits?author=hadabo "Tests")
-| :---: | :---: |
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors][all-contributors] specification.
-Contributions of any kind welcome!
+## Credits
+- [Abdul-hadi Hawari](https://github.com/hadabo)
+- [All Contributors](../../contributors)
 
 ## LICENSE
 
@@ -62,5 +55,3 @@ MIT
 [github-star]: https://github.com/hadabo/express-poc/stargazers
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20express-poc!%20https://github.com/hadabo/express-poc%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/hadabo/express-poc.svg?style=social
-[emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
-[all-contributors]: https://github.com/kentcdodds/all-contributors
