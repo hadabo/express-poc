@@ -1,20 +1,29 @@
 {
   "name": "express-poc",
   "version": "1.0.0",
-  "description": "Using Nodejs and Expressjs to create an open API (PoC)",
+  "description": "Nodejs & Expressjs open API (PoC)",
   "main": "index.js",
-  "repository": "https://github.com/hadabo/express-poc.git",
-  "author": "Abdul Hadi Hawari",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hadabo/express-poc.git"
+  },
+  "author": "Abdul-hadi Hawari <ah.hawari@gmail.com> (http://hadabo.com/)",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.1.0",
     "express": "^4.16.2",
+    "husky": "^0.14.3",
     "mongodb": "^2.2.31",
     "xo": "^0.18.2"
   },
   "scripts": {
+    "precommit": "yarn fix",
     "start": "node index.js",
     "test": "xo",
-    "format": "xo --fix"
-  }
+    "fix": "xo --fix"
+  },
+  "bugs": {
+    "url": "https://github.com/hadabo/express-poc/issues"
+  },
+  "homepage": "https://github.com/hadabo/express-poc#readme"
 }
