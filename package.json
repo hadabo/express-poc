@@ -10,6 +10,7 @@
   "author": "Abdul-hadi Hawari <ah.hawari@gmail.com> (http://hadabo.com/)",
   "license": "MIT",
   "dependencies": {
+    "all-contributors-cli": "^4.5.0",
     "chalk": "^2.1.0",
     "express": "^4.16.2",
     "husky": "^0.14.3",
@@ -20,10 +21,15 @@
     "precommit": "yarn fix",
     "start": "node index.js",
     "test": "xo",
-    "fix": "xo --fix"
+    "fix": "xo --fix",
+    "add": "all-contributors add",
+    "generate": "all-contributors generate"
   },
   "bugs": {
     "url": "https://github.com/hadabo/express-poc/issues"
   },
-  "homepage": "https://github.com/hadabo/express-poc#readme"
+  "homepage": "https://github.com/hadabo/express-poc#readme",
+  "devDependencies": {
+    "all-contributors-cli": "^4.5.0"
+  }
 }

@@ -6,6 +6,7 @@
 <hr>
 
 [![Build Status][build-badge]][build]
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![MIT License][license-badge]][LICENSE]
 [![PRs Welcome][prs-badge]][prs]
 
@@ -33,9 +34,16 @@ since this is a **PoC project** there are no restrictions on contributing, just 
 ## Security
 If you discover any security related issues, please email [Abdul-hadi](mailto:ah.hawari@gmail.com) instead of using the issue tracker.
 
-## Credits
-- [Abdul-hadi Hawari](https://github.com/hadabo)
-- [All Contributors](../../contributors)
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+| [<img src="https://avatars0.githubusercontent.com/u/172296?v=4" width="100px;"/><br /><sub>Abdul-hadi Hawari</sub>](http://hadabo.com)<br />[💻](https://github.com/@hadabo/express-poc/commits?author=hadabo "Code") [📖](https://github.com/@hadabo/express-poc/commits?author=hadabo "Documentation") [🚇](#infra-hadabo "Infrastructure (Hosting, Build-Tools, etc)") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
 
 ## LICENSE
 
