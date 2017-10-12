@@ -28,7 +28,7 @@ after cloning the project just install the dependencies using ```yarn install```
 ## Bugs! 🐞
 if you face any issues running this project, please open a new card from the [issues tab!](https://github.com/hadabo/express-poc/issues)
 
-## Contributions
+## PRs
 since this is a **PoC project** there are no restrictions on contributing, just make sure you create a feature branch and create a pull request after you're done.
 
 ## Security
