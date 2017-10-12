@@ -15,7 +15,7 @@
 [![Tweet][twitter-badge]][twitter]
 
 # Node & Express.js open API PoC
-The idea behind this **PoC** is to create an **open API** using [Nodejs][node] & [Expressjs](express)
+The idea behind this **PoC** is to create an **open API** using [Nodejs][node] & [Expressjs][express]
 
 ## Usage
 Interested in Express.js you can clone this project and give it a shoot
@@ -26,7 +26,7 @@ Interested in Express.js you can clone this project and give it a shoot
 after cloning the project just install the dependencies using ```yarn install``` and start the project using ```yarn start``` and follow the instructions on the console.
 
 ## Bugs! 🐞
-if you face any issues running this project, please open a new card from the [issues tab!](https://github.com/hadabo/express-poc/issues)
+if you face any issues running this project, please open a new card from the [issues tab!][issues]
 
 ## PRs
 since this is a **PoC project** there are no restrictions on contributing, just make sure you create a feature branch and create a pull request after you're done.
@@ -63,3 +63,4 @@ MIT
 [github-star]: https://github.com/hadabo/express-poc/stargazers
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20express-poc!%20https://github.com/hadabo/express-poc%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/hadabo/express-poc.svg?style=social
+[issues]: https://github.com/hadabo/express-poc/issues
