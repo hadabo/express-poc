@@ -128,18 +128,11 @@ app.delete('/about', (req, res) => {
 	res.send(currentRequest(req));
 });
 
+// Handling 404 pages
 app.get('*', (req, res) => {
 	log(currentRequest(req));
 	res.status(404).send(currentRequest(req));
 });
-
-// App.error((err, req, res, next) => {
-// 	if (err instanceof NotFound) {
-// 		res.status(404).send(currentRequest(req));
-// 	} else {
-// 		next(err);
-// 	}
-// });
 
 app.listen(3010, () => {
 	log('👌  Express PoC is Ready: listengin on port 3010 [' + chalk.blue('http://localhost:3010') + ']');
