@@ -1,11 +1,11 @@
 {
   "projectName": "express-poc",
-  "projectOwner": "@hadabo",
+  "projectOwner": "hadabo",
   "files": [
     "README.md"
   ],
-  "imageSize": 100,
-  "commit": true,
+  "imageSize": 130,
+  "commit": false,
   "contributors": [
     {
       "login": "hadabo",

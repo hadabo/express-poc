@@ -22,7 +22,7 @@
     "start": "node index.js",
     "test": "xo",
     "fix": "xo --fix",
-    "add": "all-contributors add",
+    "add-contributor": "all-contributors add",
     "generate": "all-contributors generate"
   },
   "bugs": {

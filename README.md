@@ -39,7 +39,7 @@ If you discover any security related issues, please email [Abdul-hadi](mailto:ah
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars0.githubusercontent.com/u/172296?v=4" width="100px;"/><br /><sub>Abdul-hadi Hawari</sub>](http://hadabo.com)<br />[💻](https://github.com/@hadabo/express-poc/commits?author=hadabo "Code") [📖](https://github.com/@hadabo/express-poc/commits?author=hadabo "Documentation") [🚇](#infra-hadabo "Infrastructure (Hosting, Build-Tools, etc)") |
+| [<img src="https://avatars0.githubusercontent.com/u/172296?v=4" width="130px;"/><br /><sub>Abdul-hadi Hawari</sub>](http://hadabo.com)<br />[💻](https://github.com/hadabo/express-poc/commits?author=hadabo "Code") [📖](https://github.com/hadabo/express-poc/commits?author=hadabo "Documentation") [🚇](#infra-hadabo "Infrastructure (Hosting, Build-Tools, etc)") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
