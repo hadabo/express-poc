@@ -15,7 +15,7 @@
     "express": "^4.16.2",
     "husky": "^0.14.3",
     "mongodb": "^3.0.0",
-    "xo": "^0.18.2"
+    "xo": "^0.20.0"
   },
   "scripts": {
     "precommit": "yarn fix",
