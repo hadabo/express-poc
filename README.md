@@ -22,16 +22,18 @@ The idea behind this **PoC** is to create an **open API** using [Nodejs][node] t
 ## Usage
 Interested in Expressjs & Mongoose you can clone this project and give it a shoot:
 
-```git clone https://github.com/hadabo/express-poc.git```
+```
+git clone https://github.com/hadabo/express-poc.git
+```
 
-Make sure you have **[MongoDB Community Server][mdbcs]** running, then using **[mongoimport][mdbi]** create a new database & collection using your favorite terminal and import boxers.json data to your boxers collection to use it in this PoC:
+Make sure you have **[MongoDB Community Server][mdbcs]** running, then using **[mongoimport][mdbi]** create a new database & collection using your favorite terminal and import [boxers.json][boxers] data to your boxers collection to use it in testing this PoC:
 
 ```
-mongoimport --db boxingclub --collection boxers --jsonArray users.json
+mongoimport --db boxingclub --collection boxers --jsonArray boxers.json
 ```
 
 ## Running it 👟
-after cloning the project just install the dependencies using ```yarn install``` and start the project using ```yarn start``` and follow the instructions on the console.
+after cloning the project just install the dependencies using ```yarn install``` or ```npm install``` and start the project using ```yarn start``` or ```npm run start``` and follow the instructions on the console.
 
 ## Bugs! 🐞
 if you face any issues running this project, please open a new card from the [issues tab!][issues]
@@ -76,3 +78,4 @@ MIT
 [mongoose]: https://github.com/Automattic/mongoose
 [mdbcs]: https://www.mongodb.com/download-center/community
 [mdbi]: https://docs.mongodb.com/manual/reference/program/mongoimport/
+[boxers]: https://github.com/hadabo/express-poc/blob/master/boxers.json
