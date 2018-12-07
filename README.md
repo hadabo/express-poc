@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Express PoC 🛠</h1>
-  <p>open API using Node & Express</p>
+  <h1>Express / MongoDB / Mongoose PoC 🛠</h1>
+  <p>open API using Express & Mongoose</p>
 </div>
 
 <hr>
@@ -15,14 +15,14 @@
 [![Star on GitHub][github-star-badge]][github-star]
 [![Tweet][twitter-badge]][twitter]
 
-# Node & Express.js open API PoC
+# Expressjs & Mongoose open API PoC
 
-The idea behind this **PoC** is to create an **open API** using [Nodejs][node] & [Expressjs][express]
+The idea behind this **PoC** is to create an **open API** using [Nodejs][node] through [Expressjs][express] & [MongoDB][mongodb] with the object modeling tool designed to work in an asynchronous environment [Mongoose][mongoose].
 
 ## Usage
-Interested in Express.js you can clone this project and give it a shoot
+Interested in Expressjs & Mongoose you can clone this project and give it a shoot, make sure you have [MongoDB Community Server][mdbcs] running, then using [mongoimport][mdbi] create a new database & collection using your favorite terminal and import boxers.json data to your boxers collection to use it in this PoC.
 
-```clone https://github.com/hadabo/express-poc.git```
+```git clone https://github.com/hadabo/express-poc.git```
 
 ## Running it 👟
 after cloning the project just install the dependencies using ```yarn install``` and start the project using ```yarn start``` and follow the instructions on the console.
@@ -66,3 +66,7 @@ MIT
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20express-poc!%20https://github.com/hadabo/express-poc%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/hadabo/express-poc.svg?style=social
 [issues]: https://github.com/hadabo/express-poc/issues
+[mongodb]: https://github.com/mongodb/mongo
+[mongoose]: https://github.com/Automattic/mongoose
+[mdbcs]: https://www.mongodb.com/download-center/community
+[mdbi]: https://docs.mongodb.com/manual/reference/program/mongoimport/
