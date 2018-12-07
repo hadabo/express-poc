@@ -8,6 +8,10 @@ const app = express();
 const {log} = console;
 
 // MongoDB connection URL
+// create 'boxingclub' database and import the test data using mongoimport:
+//  -------------------------------------------------------------------------
+// | mongoimport --db boxingclub --collection boxers --jsonArray boxers.json |
+//  -------------------------------------------------------------------------
 const url = 'mongodb://localhost:27017/boxingclub';
 
 // Boxer Schema

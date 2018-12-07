@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Express / MongoDB / Mongoose PoC 🛠</h1>
-  <p>open API using Express & Mongoose</p>
+  <h1>Express & Mongoose PoC 🛠</h1>
+  <p>open API using Nodejs & MongoDB</p>
 </div>
 
 <hr>
@@ -20,9 +20,15 @@
 The idea behind this **PoC** is to create an **open API** using [Nodejs][node] through [Expressjs][express] & [MongoDB][mongodb] with the object modeling tool designed to work in an asynchronous environment [Mongoose][mongoose].
 
 ## Usage
-Interested in Expressjs & Mongoose you can clone this project and give it a shoot, make sure you have [MongoDB Community Server][mdbcs] running, then using [mongoimport][mdbi] create a new database & collection using your favorite terminal and import boxers.json data to your boxers collection to use it in this PoC.
+Interested in Expressjs & Mongoose you can clone this project and give it a shoot:
 
 ```git clone https://github.com/hadabo/express-poc.git```
+
+Make sure you have **[MongoDB Community Server][mdbcs]** running, then using **[mongoimport][mdbi]** create a new database & collection using your favorite terminal and import boxers.json data to your boxers collection to use it in this PoC:
+
+```
+mongoimport --db boxingclub --collection boxers --jsonArray users.json
+```
 
 ## Running it 👟
 after cloning the project just install the dependencies using ```yarn install``` and start the project using ```yarn start``` and follow the instructions on the console.
