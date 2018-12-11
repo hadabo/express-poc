@@ -45,9 +45,9 @@ db.once('open', () => {
   // Now we're connected!
 
   // HTTP Get Method routes
-  // home route
-  app.get('/', (req, response) => {
-    Boxer.find((err, doc) => {
+  // boxers route get all boxers
+  app.route('/boxers').get((req, response) => {
+    Boxer.find({active: true}, (err, doc) => {
       if (err) {
         log(err);
       }
@@ -56,14 +56,22 @@ db.once('open', () => {
     });
   });
 
-  // Testing (about) route (for test purposes only)
-  app.get('/about', (req, response) => {
-    log(checkCurrentRequest(req, true));
-    response.send(checkCurrentRequest(req, true));
+  // Boxer route get boxer information
+  app.route('/boxers/:firstname-:lastname').get((req, response) => {
+    Boxer.findOne({
+      firstname: {$regex: new RegExp(req.params.firstname, 'i')},
+      lastname: {$regex: new RegExp(req.params.lastname, 'i')}
+    }, (err, doc) => {
+      if (err) {
+        log(err);
+      }
+      response.send(doc);
+      return null;
+    });
   });
 
   // Handling 404
-  app.get('*', (req, response) => {
+  app.route('*').get((req, response) => {
     log(checkCurrentRequest(req));
     response.status(404).send('<h1 style="color: red;">Page Not Fount [404]</h1>' + checkCurrentRequest(req));
   });

@@ -42,7 +42,7 @@ if you face any issues running this project, please open a new card from the [is
 since this is a **PoC project** there are no restrictions on contributing, just make sure you create a feature branch and create a pull request after you're done.
 
 ## Security
-If you discover any security related issues, please email [Abdul-hadi](mailto:ah.hawari@gmail.com) instead of using the issue tracker.
+If you discover any security related issues, please email [Abdul-hadi](mailto:hadabo@gmail.com) instead of using the issue tracker.
 
 ## Contributors
 
