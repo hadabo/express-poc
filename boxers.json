@@ -1,0 +1,8 @@
+[
+	{ firstname: 'Mike', lastname: 'tyson', email: 'mike@boxrec.com', active: true },
+	{ firstname: 'Muhammad', lastname: 'Ali', email: 'muhammad@boxrec.com', active: true },
+	{ firstname: 'Earnie', lastname: 'Shavers', email: 'earnie@boxrec.com', active: true },
+	{ firstname: 'Rahim', lastname: 'Muhammad', email: 'rahim@boxrec.com', active: false },
+	{ firstname: 'Daniel', lastname: 'Saylor', email: 'daniel@boxrec.com', active: true },
+	{ firstname: 'Kevin', lastname: 'Barry', email: 'kevin@boxrec.com', active: true }
+]

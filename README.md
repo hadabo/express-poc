@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Express PoC 🛠</h1>
-  <p>open API using Node & Express</p>
+  <h1>Express & Mongoose PoC 🛠</h1>
+  <p>open API using Nodejs & MongoDB</p>
 </div>
 
 <hr>
@@ -15,17 +15,25 @@
 [![Star on GitHub][github-star-badge]][github-star]
 [![Tweet][twitter-badge]][twitter]
 
-# Node & Express.js open API PoC
+# Expressjs & Mongoose open API PoC
 
-The idea behind this **PoC** is to create an **open API** using [Nodejs][node] & [Expressjs][express]
+The idea behind this **PoC** is to create an **open API** using [Nodejs][node] through [Expressjs][express] & [MongoDB][mongodb] with the object modeling tool designed to work in an asynchronous environment [Mongoose][mongoose].
 
 ## Usage
-Interested in Express.js you can clone this project and give it a shoot
+Interested in Expressjs & Mongoose you can clone this project and give it a shoot:
 
-```clone https://github.com/hadabo/express-poc.git```
+```
+git clone https://github.com/hadabo/express-poc.git
+```
+
+Make sure you have **[MongoDB Community Server][mdbcs]** running, then using **[mongoimport][mdbi]** create a new database & collection using your favorite terminal and import [boxers.json][boxers] data to your boxers collection to use it in testing this PoC:
+
+```
+mongoimport --db boxingclub --collection boxers --jsonArray boxers.json
+```
 
 ## Running it 👟
-after cloning the project just install the dependencies using ```yarn install``` and start the project using ```yarn start``` and follow the instructions on the console.
+after cloning the project just install the dependencies using ```yarn install``` or ```npm install``` and start the project using ```yarn start``` or ```npm run start``` and follow the instructions on the console.
 
 ## Bugs! 🐞
 if you face any issues running this project, please open a new card from the [issues tab!][issues]
@@ -34,7 +42,7 @@ if you face any issues running this project, please open a new card from the [is
 since this is a **PoC project** there are no restrictions on contributing, just make sure you create a feature branch and create a pull request after you're done.
 
 ## Security
-If you discover any security related issues, please email [Abdul-hadi](mailto:ah.hawari@gmail.com) instead of using the issue tracker.
+If you discover any security related issues, please email [Abdul-hadi](mailto:hadabo@gmail.com) instead of using the issue tracker.
 
 ## Contributors
 
@@ -66,3 +74,8 @@ MIT
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20express-poc!%20https://github.com/hadabo/express-poc%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/hadabo/express-poc.svg?style=social
 [issues]: https://github.com/hadabo/express-poc/issues
+[mongodb]: https://github.com/mongodb/mongo
+[mongoose]: https://github.com/Automattic/mongoose
+[mdbcs]: https://www.mongodb.com/download-center/community
+[mdbi]: https://docs.mongodb.com/manual/reference/program/mongoimport/
+[boxers]: https://github.com/hadabo/express-poc/blob/master/boxers.json
