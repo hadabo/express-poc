@@ -14,7 +14,7 @@
   "author": "Abdul-hadi Hawari <ah.hawari@gmail.com> (http://hadabo.com/)",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.1",
+    "chalk": "^3.0.0",
     "express": "^4.16.4",
     "mongoose": "^5.3.14"
   },
