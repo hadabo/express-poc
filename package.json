@@ -16,7 +16,7 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "express": "^4.16.4",
-    "mongoose": "^5.3.14"
+    "mongoose": "^5.9.11"
   },
   "devDependencies": {
     "all-contributors-cli": "^6.9.3",
